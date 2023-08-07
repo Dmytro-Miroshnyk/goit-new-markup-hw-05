@@ -469,9 +469,12 @@ footer .logo {
   height: 40px;
   border-radius: 4px;
   border: 1px solid var(--white-background-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background: var(--dark-color);
+  background-color: transparent;
+  font-size: 12px;
   padding-left: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   padding-right: 16px;
   color: var(--white-background-color);
 }
@@ -487,7 +490,7 @@ footer .logo {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   border-radius: 4px;
   background-color: #4d5ae5;
@@ -501,6 +504,7 @@ footer .logo {
 }
 .footer-button-svg {
   fill: var(--white-background-color);
+  margin-left: 16px;
 }
 .footer-button:hover,
 .footer-button:focus {
@@ -823,7 +827,6 @@ footer .logo {
   margin: 24px auto;
   color: var(--white, #fff);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
