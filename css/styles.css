@@ -463,8 +463,6 @@ footer .logo {
   gap: 24px;
 }
 .footer-label {
-  display: flex;
-  gap: 24px;
 }
 .footer-input {
   width: 264px;
