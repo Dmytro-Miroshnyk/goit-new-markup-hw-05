@@ -458,7 +458,11 @@ footer .logo {
   transform: translate(-50%, -50%);
   fill: var(--light-color);
 }
-.footer-input-wrap {
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-label {
   display: flex;
   gap: 24px;
 }
