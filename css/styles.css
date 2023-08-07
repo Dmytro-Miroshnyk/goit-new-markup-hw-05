@@ -771,7 +771,7 @@ footer .logo {
 }
 .modal-comment::placeholder {
   color: rgba(46, 47, 66, 0.4);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
